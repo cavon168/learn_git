@@ -112,4 +112,8 @@
 
   * git checkout . —— 撤销所有文件的修改
 
+  * git pull origin master —— 拉取 / 更新代码
+
+  * git checkout -b feature-login —— 在 master 的基础上拉取新的分支
+
 > ## <color style="color: red;">**眼过千遍不如手过一遍***<color/>
