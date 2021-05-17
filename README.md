@@ -114,6 +114,26 @@
 
   * git pull origin master —— 拉取 / 更新代码
 
-  * git checkout -b feature-login —— 在 master 的基础上拉取新的分支
+  * git checkout -b feature-login —— 在 master 的基础上拉新的分支（create branch）
+
+  * git checkout master —— 切换分支
+
+    合并代码的时候：
+
+    先切换到主分支 master。
+
+    * git feth —— 拉取所有的分支
+
+    再次切换到别的分支，拉取 / 更新代码。
+
+    切换到主分支 master。
+
+    * git merge xxx(某某分支) —— 把其他分支代码合并到 master 上
+
+    最后 push 到主分支 master 上，就 OK 了。
+
+    当文件冲突了有三种选择：接受当前改变（Accept Current Change）、接受进来的改变（Accept Incomint Change）、接受两个的改变（Accept Both Changes）。
+
+  * 注意：不管在哪个分支一定要拉取 / 更新代码。
 
 > ## <color style="color: red;">**眼过千遍不如手过一遍***<color/>
