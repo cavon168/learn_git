@@ -118,21 +118,39 @@
 
   * git checkout master —— 切换分支
 
+  * git fetch —— 拉取所有的分支
+
+  * git merge xxx(某某分支 name) —— 把其他分支代码合并到 master 上
+
+  * git stash —— 当前需要改的内容装进另一个容器
+
+  * git stash pop —— 把之前放在另一个容器中的内容提出来（恢复之前内容）
+
     合并代码的时候：
 
     先切换到主分支 master。
 
-    * git feth —— 拉取所有的分支
+    * git fetch —— 拉取所有的分支
 
     再次切换到别的分支，拉取 / 更新代码。
 
     切换到主分支 master。
 
-    * git merge xxx(某某分支) —— 把其他分支代码合并到 master 上
+    * git merge xxx(某某分支 name) —— 把其他分支代码合并到 master 上
 
     最后 push 到主分支 master 上，就 OK 了。
 
     当文件冲突了有三种选择：接受当前改变（Accept Current Change）、接受进来的改变（Accept Incomint Change）、接受两个的改变（Accept Both Changes）。
+
+    如果当前有一个注销功能分支为 feature-logout，但是忘记拉取创建分支直接在主分支 master 上改了，此时怎么办？
+
+    * git stash —— 当前需要改的内容装进另一个容器
+
+    然后再去 git checkout -b feature-logout 创建当前分支（新的分支）
+
+    * git stash pop —— 把之前放在另一个容器中的内容提出来（恢复之前内容）
+
+    接着正常提交操作且合并分支...
 
   * **注意：不管在哪个分支一定要拉取 / 更新代码。**
 
