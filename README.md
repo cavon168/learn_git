@@ -98,7 +98,7 @@
 
   * git diff —— 查看文件
 
-  * git diff README.md —— 查看某个文件
+  * git diff README.md —— 查看当前文件
 
   * git log —— 查看提交记录
 
@@ -106,10 +106,10 @@
 
   * git config user.email xxx —— 配置邮箱名
 
-  * git show 1534b9b5d066263217f4cb5efe4ef81ab679b4b5 —— 用 commit id 查看单独的记录
+  * git show 1534b9b5d066263217f4cb5efe4ef81ab679b4b5 —— 查看当前标识 id 的记录
   
-  * git checkout index.html —— 撤销这个文件修改
+  * git checkout index.html —— 撤销当前文件的修改
 
-  * git checkout . —— 撤销所有文件修改
+  * git checkout . —— 撤销所有文件的修改
 
 > ## <color style="color: red;">**眼过千遍不如手过一遍***<color/>
