@@ -134,6 +134,8 @@
 
     当文件冲突了有三种选择：接受当前改变（Accept Current Change）、接受进来的改变（Accept Incomint Change）、接受两个的改变（Accept Both Changes）。
 
-  * 注意：不管在哪个分支一定要拉取 / 更新代码。
+  * **注意：不管在哪个分支一定要拉取 / 更新代码。**
+
+
 
 > ## <color style="color: red;">**眼过千遍不如手过一遍***<color/>
