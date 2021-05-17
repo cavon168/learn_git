@@ -92,4 +92,13 @@
 
 <br>
 
+## 常用命令
+
+  * git branch —— 查看分支
+
+  * git diff —— 查看文件
+
+  * git diff README.md —— 查看某个文件
+
+
 > ## <color style="color: red;">**眼过千遍不如手过一遍***<color/>
