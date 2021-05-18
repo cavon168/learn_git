@@ -94,6 +94,8 @@
 
 ## 常用命令
 
+  * cat ~/.ssh/id_rsa.pub —— 查看当前文件的内容（pub 公式的意思）
+
   * git branch —— 查看分支 
 
   * git diff —— 查看文件
